@@ -1,0 +1,116 @@
+div{
+    color: white;
+    text-align: center;
+    float: left;    
+    line-height: 50px;.
+    padding: 2px;
+    font-family: Microsoft JhengHei, BiauKai, arial; 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background: blue;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    background: #f5ff00;
+}
+
+.sidebar{
+    width: 25%;
+    height: 350px;
+    background: #000950;
+    line-height: 350px;
+}
+
+.main{
+    width: 75%;
+    height: 350px;
+    background: #00db3b;
+    line-height: 350px;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    background: #ff6c00;
+}
+
+
+
+
+
+.sa{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    color: black;
+    font-weight: 900;
+}
+
+.sa>li{
+    display: inline-block;
+    border: 1px solid #ddd;
+    position: relative;
+    width: 30%;
+    margin-left: 5px;
+    margin-bottom:;
+}
+
+.submenu{
+    background: #eee;
+    width: 100%;
+    padding: 0px;
+    position: absolute;
+    left: -1px; 
+    top: 100%; 
+    display: none; 
+    border-radius: 7px;
+}
+
+.submenu li{
+    list-style: none;
+}
+
+
+.sa>li:hover .submenu{
+  display: block;
+}
+
+.submenu>li:hover{
+    background: #fff;
+    color: blue;
+}
+
+.submenu{
+    cursor: pointer;
+}
+
+.layout{
+    
+}
+
+
+
+
+.circle{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:red;
+    font-size: 50px;
+    text-align: center;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+
+
+
